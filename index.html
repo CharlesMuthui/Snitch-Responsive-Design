@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snitch</title>
+  <script src="https://kit.fontawesome.com/1064154e74.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <div class="header">
+
+        <div class="logo">
+            <h2> Sni<span>tch</span> </h2>
+        </div>
+
+        <div class="navbar">
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">Anime Lists</a>
+                <a href="#">New</a>
+                <a href="#">Popular</a>
+            </nav>
+        </div>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" onclick="menu_Display()" id="menu_btn"></i>
+        </div>
+
+        <div class="user">
+            <nav>
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-gear"></i></a>
+            </nav>
+
+        </div>
+
+    </div>
+
+
+    <div class="banner">
+        <div class="new">
+            <h3><i class="fa-solid fa-wand-magic-sparkles"></i>New</h3>
+            <div class="slideshow">
+
+                <div class="new-img">
+                    <img src="https://e0.pxfuel.com/wallpapers/1021/452/desktop-wallpaper-anime-ultra-8k-for-mobile-jpeg-1-anime.jpg" class="slide-img" alt="">
+
+                    <img src="https://wallpapercave.com/wp/wp5121780.jpg" class="slide-img" alt="">
+
+                    <img src="https://e1.pxfuel.com/desktop-wallpaper/971/12/desktop-wallpaper-ultra-anime-anime.jpg" class="slide-img" alt="">
+
+                    <img src="https://e0.pxfuel.com/wallpapers/292/867/desktop-wallpaper-ultra-anime-for-pc-best-3-ultra-anime.jpg" class="slide-img" alt="">
+
+                </div>
+            </div>
+
+            <div class="overlay">
+                <div class="overlay-cont">
+                    <h6>Home <span class="bar">|</span>TV</h6>
+                    <h1>
+                        Black<span>Torch</span>
+                    </h1>
+                    <p>EP 24 . 24m</p>
+                    <div class="buttons">
+                        <button class="overlay-btn">
+                            SUB
+                        </button>
+                        <button class="overlay-btn">
+                            HD
+                        </button>
+                        <button class="overlay-btn">
+                            DUB
+                        </button>
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ab labore vel autem impedit, quia ipsam aspernatur similique animi quod.</p>
+                    </div>
+
+                </div>
+                <div class="overlaynxt">
+                    <button onclick="nextSlide()"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="treding">
+            <h3><i class="fa-solid fa-wand-magic-sparkles"></i>Trending</h3>
+            <div class="container">
+
+
+                <div class="box">
+                    <div class="no">01</div>
+                    <div class="box-img">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/116/412/889/naruto-anime-uchiha-itachi-hd-wallpaper-preview.jpg" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h5>Black Ninja</h5>
+                        <p><i class="fa-solid fa-eye"></i>200200 <i class="fa-solid fa-heart"></i> 200195</p>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <div class="no">02</div>
+                    <div class="box-img">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/772/105/265/naruto-shippuuden-anime-fox-hatake-kakashi-wallpaper-preview.jpg" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h5>Nine Tails Cat</h5>
+                        <p><i class="fa-solid fa-eye"></i>200200 <i class="fa-solid fa-heart"></i> 200195</p>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <div class="no">03</div>
+                    <div class="box-img">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/869/512/849/anime-demon-slayer-kimetsu-no-yaiba-zenitsu-agatsuma-hd-wallpaper-preview.jpg" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h5>Demon Slayer</h5>
+                        <p><i class="fa-solid fa-eye"></i>200200 <i class="fa-solid fa-heart"></i> 200195</p>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <div class="no">04</div>
+                    <div class="box-img">
+                        <img src="https://images8.alphacoders.com/533/thumb-440-533007.webp" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h5>Sword Art</h5>
+                        <p><i class="fa-solid fa-eye"></i>200200 <i class="fa-solid fa-heart"></i> 200195</p>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <div class="no">05</div>
+                    <div class="box-img">
+                        <img src="https://images2.alphacoders.com/516/thumb-440-516664.webp" alt="">
+                    </div>
+                    <div class="box-content">
+                        <h5>One Piece</h5>
+                        <p><i class="fa-solid fa-eye"></i>200200 <i class="fa-solid fa-heart"></i> 200195</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="banner-2">
+        <h3>READ BLACK TORCH MANGA ONLINE</h3>
+        <p>Highest Quality | No signUps | No Ads</p>
+
+        <a href="https://catalog.freelibrary.org/Record/2600216" class="activeBtn">Read Now</a>
+
+        <a href="https://catalog.freelibrary.org/Record/2600216">Go to website</a>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
